@@ -11,7 +11,9 @@ import UIKit
 class ToDoListViewController: UIViewController {
     
     lazy var toDoListViewModel: ToDoListViewModel = {
-        return ToDoListViewModel()
+        let todoVM = ToDoListViewModel()
+      //  todoVM.viewC = self
+        return todoVM
     }()
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -19,9 +21,13 @@ class ToDoListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
+        initVM()
+    }
+    
+    fileprivate func setupView() {
         toDoListTableView.rowHeight = UITableView.automaticDimension
         toDoListTableView.estimatedRowHeight = 80
-        initVM()
     }
     
     fileprivate func initVM(){

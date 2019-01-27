@@ -12,7 +12,6 @@
 		16041F5321FDCD690083E6C4 /* MVVMExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16041F5121FDCD690083E6C4 /* MVVMExample.xcdatamodeld */; };
 		16041F5521FDCD6B0083E6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16041F5421FDCD6B0083E6C4 /* Assets.xcassets */; };
 		16041F5821FDCD6B0083E6C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16041F5621FDCD6B0083E6C4 /* LaunchScreen.storyboard */; };
-		16041F6321FDCD6B0083E6C4 /* MVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F6221FDCD6B0083E6C4 /* MVVMExampleTests.swift */; };
 		16041F6E21FDCD6B0083E6C4 /* MVVMExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F6D21FDCD6B0083E6C4 /* MVVMExampleUITests.swift */; };
 		16041F7E21FDCE3E0083E6C4 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F7D21FDCE3E0083E6C4 /* ToDoListViewController.swift */; };
 		16041F8021FDCE650083E6C4 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F7F21FDCE650083E6C4 /* ToDoListViewModel.swift */; };
@@ -20,6 +19,10 @@
 		16041F8521FDD18E0083E6C4 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F8421FDD18E0083E6C4 /* ToDoTableViewCell.swift */; };
 		16041F8821FDE1D60083E6C4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F8721FDE1D60083E6C4 /* APIService.swift */; };
 		16041F8A21FDF2840083E6C4 /* ToDoListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F8921FDF2840083E6C4 /* ToDoListCellModel.swift */; };
+		16041F8D21FE3A360083E6C4 /* ApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F8B21FE38140083E6C4 /* ApiServiceTest.swift */; };
+		16041F8F21FE3AEC0083E6C4 /* ToDoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F8E21FE3AEC0083E6C4 /* ToDoListViewModelTests.swift */; };
+		16041F9121FE3F8D0083E6C4 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 16041F9021FE3F8C0083E6C4 /* content.json */; };
+		16041F9321FE4AA20083E6C4 /* ToDoListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16041F9221FE4AA20083E6C4 /* ToDoListViewControllerTest.swift */; };
 		18F8383E56FB0B428C4911FE /* Pods_MVVMExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E27B0E8893C97D452A9978E /* Pods_MVVMExampleUITests.framework */; };
 		837DCA50C686491217CA3AC8 /* Pods_MVVMExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E911E23BCB2A5EAB3A2A4D67 /* Pods_MVVMExample.framework */; };
 		881C6C8EECCE205AFA48A317 /* Pods_MVVMExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5226F12E0EF789675FB5EF /* Pods_MVVMExampleTests.framework */; };
@@ -51,7 +54,6 @@
 		16041F5721FDCD6B0083E6C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16041F5921FDCD6B0083E6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16041F5E21FDCD6B0083E6C4 /* MVVMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16041F6221FDCD6B0083E6C4 /* MVVMExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleTests.swift; sourceTree = "<group>"; };
 		16041F6421FDCD6B0083E6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16041F6921FDCD6B0083E6C4 /* MVVMExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16041F6D21FDCD6B0083E6C4 /* MVVMExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleUITests.swift; sourceTree = "<group>"; };
@@ -62,6 +64,10 @@
 		16041F8421FDD18E0083E6C4 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
 		16041F8721FDE1D60083E6C4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		16041F8921FDF2840083E6C4 /* ToDoListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListCellModel.swift; sourceTree = "<group>"; };
+		16041F8B21FE38140083E6C4 /* ApiServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceTest.swift; sourceTree = "<group>"; };
+		16041F8E21FE3AEC0083E6C4 /* ToDoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModelTests.swift; sourceTree = "<group>"; };
+		16041F9021FE3F8C0083E6C4 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		16041F9221FE4AA20083E6C4 /* ToDoListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewControllerTest.swift; sourceTree = "<group>"; };
 		3B08D0289435E51666417BE0 /* Pods-MVVMExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMExampleTests/Pods-MVVMExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F5226F12E0EF789675FB5EF /* Pods_MVVMExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0D636807BAE779F0155716 /* Pods-MVVMExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMExampleTests/Pods-MVVMExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,8 +146,10 @@
 		16041F6121FDCD6B0083E6C4 /* MVVMExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				16041F6221FDCD6B0083E6C4 /* MVVMExampleTests.swift */,
+				16041F8B21FE38140083E6C4 /* ApiServiceTest.swift */,
 				16041F6421FDCD6B0083E6C4 /* Info.plist */,
+				16041F8E21FE3AEC0083E6C4 /* ToDoListViewModelTests.swift */,
+				16041F9221FE4AA20083E6C4 /* ToDoListViewControllerTest.swift */,
 			);
 			path = MVVMExampleTests;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				16041F8721FDE1D60083E6C4 /* APIService.swift */,
+				16041F9021FE3F8C0083E6C4 /* content.json */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -326,6 +335,7 @@
 				16041F5821FDCD6B0083E6C4 /* LaunchScreen.storyboard in Resources */,
 				16041F5521FDCD6B0083E6C4 /* Assets.xcassets in Resources */,
 				16041F5021FDCD690083E6C4 /* Main.storyboard in Resources */,
+				16041F9121FE3F8D0083E6C4 /* content.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,12 +432,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVVMExample/Pods-MVVMExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/SpecLeaks/SpecLeaks.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpecLeaks.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,7 +472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16041F6321FDCD6B0083E6C4 /* MVVMExampleTests.swift in Sources */,
+				16041F9321FE4AA20083E6C4 /* ToDoListViewControllerTest.swift in Sources */,
+				16041F8D21FE3A360083E6C4 /* ApiServiceTest.swift in Sources */,
+				16041F8F21FE3AEC0083E6C4 /* ToDoListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

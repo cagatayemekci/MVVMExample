@@ -12,7 +12,7 @@ class ToDoListViewModel {
     
     private var todoList :[ToDoModel] = [ToDoModel]()
     let apiService: APIServiceProtocol
-    
+    var viewC:ToDoListViewController?
     var numberOfCells: Int {
         return todoList.count
     }
