@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct ToDoListCellModel {
+    let id: Int
+    let title: String
+    let completed: Bool
+}
